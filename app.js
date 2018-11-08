@@ -1,12 +1,11 @@
 const request = require ('request');
-const _ = require('lodash');
-const Work = require('./workout.js');
-const {ObjectID} = require('mongodb');
 var {mongoose} = require('./mongoose');
+
 var {Workout} =  require('./workout.js');
 const credentials = require('./credentials.json');
 
 var env = process.env.NODE_ENV || 'devlopment';
+
 console.log('env*****', env);
 if (env === 'development') {
     process.env.PORT = 3000;
