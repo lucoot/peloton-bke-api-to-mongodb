@@ -1,0 +1,18 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.10",
+    "request": "^2.88.0",
+    "requests": "^0.2.2"
+  }
+}
